@@ -1,0 +1,13 @@
+@import url(../style.css); 
+@import url(./components/header.css); 
+@import url(./components/form.css);
+@import url(./components/footer.css);
+@import url(./components/main.css);
+@import url(./components/button.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Work+Sans:wght@300;400;500;600;700&display=swap');
+
+:root { 
+    --fuente-titulos: 'Noto Serif', serif;  
+    --fuente-cuerpo: 'Work Sans', sans-serif;
+
+}
