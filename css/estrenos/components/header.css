@@ -1,0 +1,46 @@
+.header-estrenos {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: var(--color-superficie);
+	max-height: 100px;
+	max-width: 100%;
+    padding: 20px;
+}
+
+.header-estrenos div {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.header-estrenos div h1 {
+	font-size: 24px;
+	color: var(--color-texto-suave);
+	font-weight: bold;
+}
+
+.header-estrenos div img {
+	width: 100px;
+	height: 100px;
+}
+
+.header-estrenos nav ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	list-style: none;
+}
+
+.header-estrenos nav ul li a {
+	text-decoration: none;
+	color: var(--color-texto-suave);
+	font-size: 16px;
+	transition: color 0.3s ease;
+	font-weight: 500;
+
+	&:hover {
+		color: var(--color-primario);
+	}
+}
