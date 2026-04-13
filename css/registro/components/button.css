@@ -1,0 +1,20 @@
+.button-register button{
+    background-color: var(--color-primario);
+    padding: 16px 48px;
+    color: white;
+    font-size: 20px;
+    font-family: var(--fuente-titulos);
+    text-transform: uppercase;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    margin-top: 32px;
+    border-radius: 8px;
+}
+
+.button-register button:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+
+}   

@@ -1,8 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 :root {
-  --color-fondo: #fff8e7;
-  --color-superficie: #ffe8a3;
-  --color-primario: #e63946;
-  --color-secundario: #ffb703;
-  --color-texto: #1d3557;
-  --color-texto-suave: #457b9d;
+	--color-fondo: #fff8e7;
+	--color-superficie: #ffe8a3;
+	--color-primario: #e63946;
+	--color-secundario: #ffb703;
+	--color-texto: #1d3557;
+	--color-texto-suave: #457b9d;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	font-family:
+		system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
