@@ -1,5 +1,7 @@
 # 🎬 Cine Aurora - TP N°2 Programación III
 
+![alt text](./assets/preview.png)
+
 ## 📌 Descripción
 
 El objetivo es maquetar la interfaz de una plataforma de cine llamada **Cine Aurora**, aplicando conceptos de:
@@ -17,7 +19,6 @@ El objetivo es maquetar la interfaz de una plataforma de cine llamada **Cine Aur
 - Iñaki Carcereny
 - Valentin De Pascale
 - Joaquin Marcilese
-- Valentin Rodriguez
 - Ezequiel Barrionuevo
 - Alan Axel Hansen
 
@@ -30,47 +31,45 @@ El objetivo es maquetar la interfaz de una plataforma de cine llamada **Cine Aur
 - Flexbox
 - Grid
 - Media Queries
-- Google Fonts
 
----
-
-## 📂 Estructura del proyecto
-
-// TODO
 ---
 
 ## 📄 Páginas implementadas
 
-- **🏠 Inicio (`index.html`)**
-  - Listado de películas
-  - Uso de CSS Grid
-  - Responsive con Media Queries
-
 - **🎥 Detalle (`detalle.html`)**
-  - Información completa de una película
   - Uso de Flexbox
   - Diseño reutilizable
+
+  - Realizado por Alan Axel Hansen
 
 - **🔐 Login (`login.html`)**
   - Formulario de inicio de sesión
 
+  - Realizado por Iñaki Carcereny
+
 - **📝 Registro (`registro.html`)**
   - Formulario de registro
+
+  - Realizado por Valentin De Pascale
 
 - **👤 Perfil (`perfil.html`)**
   - Información del usuario
   - Películas vistas
 
+  - Realizado por Ezequiel Barrionuevo
+
 - **🎞️ Estrenos (`estrenos.html`)**
   - Próximos lanzamientos
+
+  - Realizado por Joaquin Marcilese
 
 ---
 
 ## 🎯 Funcionalidades
 
-- Diseño completamente responsive 📱💻
+- Diseño responsive
 - Navegación entre páginas mediante enlaces
-- Componentes reutilizables en CSS
+- Modularización en componentes CSS
 - Uso de pseudoclases (`:hover`, `:focus`)
 - Variables CSS definidas en `:root`
 
@@ -78,8 +77,7 @@ El objetivo es maquetar la interfaz de una plataforma de cine llamada **Cine Aur
 
 ## 🧩 Arquitectura CSS
 
-- Organización modular en `/css/components`
-- Separación de estilos reutilizables
+- Organización modular en `/css/ruta/components`
 - Uso de `@import` para integrar estilos
 - Convención de nombres en **kebab-case**
 
@@ -90,7 +88,6 @@ El objetivo es maquetar la interfaz de una plataforma de cine llamada **Cine Aur
 Se implementaron **Media Queries** para asegurar una correcta visualización en:
 
 - Dispositivos móviles
-- Tablets
 - Escritorio
 
 ---
