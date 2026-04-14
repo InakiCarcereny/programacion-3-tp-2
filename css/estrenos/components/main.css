@@ -1,0 +1,51 @@
+.container-estrenos {
+	background-color: var(--color-fondo);
+	padding: 4%;
+	text-align: center;
+}
+
+.movies {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 40px;
+	width: 95%;
+	max-width: 700px;
+	margin: 5% auto;
+}
+
+.movie {
+	text-align: center;
+}
+
+.movie img {
+	width: 100%;
+	height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+	.movies {
+		grid-template-columns: 1fr 1fr;
+		gap: 20px;
+		width: 90%;
+		padding: 16px;
+	}
+}
+
+.container-estrenos div h1 {
+	color: var(--color-texto);
+	font-size: 3.5rem;
+	margin: 0;
+	padding: 0;
+}
+
+.movies h4 {
+	color: var(--color-texto-suave);
+	font-size: 1.7rem;
+	margin: 4px 0;
+	padding: 0;
+}
+
+.movies p {
+	color: var(--color-texto-suave);
+	font-size: 1rem;
+}

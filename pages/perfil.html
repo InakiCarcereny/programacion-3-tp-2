@@ -6,58 +6,75 @@
     <title>Cine Aurora 📽️ - Mi perfil</title>
     <meta name="description" content="Cine Aurora - Mi perfil" />
     <link rel="icon" href="../assets/favicon/logo-cine.png" />
-    <link rel="stylesheet" href="../css/style.css" />
-  </head>
+    <link rel="stylesheet" href="../css/perfil/perfil.css" />
 
+  </head>
   <body>
-    <header>
-      <div>
+    <header class="main-header">
+      <div class="logo-header">
         <h1>Cine Aurora</h1>
         <img src="../assets/favicon/logo-cine.png" alt="logo-cine-aurora" />
       </div>
-      <div>
-        <nav>
-          <a href="../index.html">Inicio</a>
-          <a href="../pages/estrenos.html">Próximos estrenos</a>
-          <a href="../index.html">Volver</a>
-        </nav>
-      </div>
+
+      <nav class="nav-header">
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="./estrenos.html">Próximos estrenos</a></li>
+          <li><a href="../index.html">Volver</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <main>
-      <h1>Panel de usuario</h1>
-      <section>
-        <div>
+    <main class="profile-container">
+      <section class="profile-info">
+        <h1 class="profile-title">Panel de usuario</h1>
+
+        <div class="profile-header">
           <img
             src="../assets/img/perfil-placeholder.png"
             alt="Foto de perfil"
+            class="profile-img"
           />
           <h2>Hola, John Doe 👋📽️!</h2>
         </div>
-        <div>
-          <p>Nombre completo: John Doe</p>
-          <p>Email: usuario@example.com</p>
-          <p>Fecha de nacimiento: dd/mm/yyyy</p>
-          <p>Contraseña: ********</p>
-          <p>Miembro desde: 2026</p>
+
+        <div class="profile-data">
+          <p><strong>Nombre completo:</strong> John Doe</p>
+          <p><strong>Email:</strong> usuario@example.com</p>
+          <p><strong>Fecha de nacimiento:</strong> dd/mm/yyyy</p>
+          <p><strong>Contraseña:</strong> ********</p>
+          <p><strong>Miembro desde:</strong> 2026</p>
         </div>
       </section>
-      <section>
-        <div>
-          <div>
-            <h3>Películas ya vistas</h3>
+
+      <section class="profile-movies">
+        <h3>Películas ya vistas</h3>
+
+        <div class="movies-grid">
+          <div class="movie-card">
+            <p>🎬 Estreno A</p>
+            <span>Vista el 10/03</span>
           </div>
-          <div>
-            <ul>
-              <li>🎬 Estreno A - Vista el 10/03</li>
-              <li>🎬 Estreno B - Vista el 15/03</li>
-            </ul>
+
+          <div class="movie-card">
+            <p>🎬 Estreno B</p>
+            <span>Vista el 15/03</span>
+          </div>
+
+          <div class="movie-card">
+            <p>🎬 Estreno C</p>
+            <span>Vista el 20/03</span>
+          </div>
+
+          <div class="movie-card">
+            <p>🎬 Estreno D</p>
+            <span>Vista el 25/03</span>
           </div>
         </div>
       </section>
     </main>
 
-    <footer>
+    <footer class="main-footer">
       <p>&copy; 2026 Cine Aurora - Todos los derechos reservados</p>
     </footer>
   </body>

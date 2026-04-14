@@ -1,0 +1,56 @@
+.register-main {
+	display: grid;
+	place-items: center;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 40px 20px;
+}
+
+form {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 100%;
+}
+
+.tittle-new-account {
+	grid-column: span 2;
+	color: var(--color-primario);
+	font-family: var(--fuente-titulos);
+	font-size: 32px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 60px;
+	font-style: italic;
+}
+
+.left-section {
+	font-family: var(--fuente-cuerpo);
+	padding: 20px 40px;
+}
+
+.right-section {
+	margin: auto;
+	padding: 40px;
+	background-color: var(--color-superficie);
+	border-radius: 16px;
+}
+
+@media (max-width: 850px) {
+	form {
+		grid-template-columns: 1fr;
+	}
+
+	.tittle-new-account {
+		grid-column: span 1;
+		text-align: center;
+	}
+
+	.fields-register {
+		width: 100%;
+	}
+
+	.left-section,
+	.right-section {
+		padding: 20px;
+	}
+}
